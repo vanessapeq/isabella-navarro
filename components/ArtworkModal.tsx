@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import type { ArtworkItem } from "@/data/artworks";
 
 type Props = {
@@ -37,7 +38,18 @@ export default function ArtworkModal({ artwork, onClose }: Props) {
             <div className="grid gap-6 md:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)] items-start">
               <div>
                 <div className="relative w-full overflow-hidden rounded-2xl border border-slate-200 bg-slate-100 aspect-[4/3]">
-                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_0_0,rgba(255,255,255,0.4),transparent_55%),radial-gradient(circle_at_100%_100%,rgba(15,23,42,0.45),transparent_55%)]" />
+                  {artwork.image ? (
+                    <Image
+                      src={artwork.image}
+                      alt={artwork.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 60vw"
+                      className="object-contain"
+                      quality={90}
+                    />
+                  ) : (
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_0_0,rgba(255,255,255,0.4),transparent_55%),radial-gradient(circle_at_100%_100%,rgba(15,23,42,0.45),transparent_55%)]" />
+                  )}
                 </div>
               </div>
               <div className="space-y-2">

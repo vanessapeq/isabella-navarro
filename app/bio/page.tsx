@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function BioPage() {
   const timeline = [
     { year: "2024", text: "Residência artística em Lisboa, Portugal." },
@@ -5,6 +7,9 @@ export default function BioPage() {
     { year: "2021", text: "Início da série 'Cidades Imaginadas', entre desenho, foto e objeto." },
     { year: "2018", text: "Primeiras intervenções urbanas em spray e murais." }
   ];
+
+  // Substitua este caminho pela foto real quando disponível
+  const bioPhoto = "/images/bio-isabela.jpg"; // ou null se não tiver foto ainda
 
   return (
     <section className="section-padding">
@@ -19,7 +24,20 @@ export default function BioPage() {
         </header>
 
         <div className="grid gap-10 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.3fr)] items-start">
-          <div className="aspect-[3/4] rounded-3xl border border-slate-200 bg-[radial-gradient(circle_at_0_0,rgba(255,255,255,0.7),transparent_55%),radial-gradient(circle_at_100%_100%,rgba(31,60,136,0.5),transparent_55%)]" />
+          <div className="relative aspect-[3/4] overflow-hidden rounded-3xl border border-slate-200 bg-slate-100">
+            {bioPhoto ? (
+              <Image
+                src={bioPhoto}
+                alt="Isabela Navarro"
+                fill
+                sizes="(max-width: 768px) 100vw, 40vw"
+                className="object-cover"
+                quality={85}
+              />
+            ) : (
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_0_0,rgba(255,255,255,0.7),transparent_55%),radial-gradient(circle_at_100%_100%,rgba(31,60,136,0.5),transparent_55%)]" />
+            )}
+          </div>
 
           <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
             <p>
