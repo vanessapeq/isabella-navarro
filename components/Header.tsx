@@ -16,8 +16,8 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <aside className="fixed inset-y-0 left-0 z-40 hidden w-60 border-r border-slate-200 bg-white/95 px-8 py-10 lg:flex flex-col justify-between">
-      <div className="space-y-10">
+    <aside className="fixed inset-y-0 left-0 z-40 hidden w-64 border-r border-slate-200 bg-white/95 px-8 py-10 lg:flex flex-col justify-between">
+      <div className="space-y-12">
         <div className="flex items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-300">
             <span className="font-display text-xl tracking-[0.28em]">IN</span>
@@ -27,6 +27,12 @@ export default function Header() {
             <p className="text-slate-700">Isabela Navarro</p>
           </div>
         </div>
+
+        <p className="text-[10px] font-grotesk uppercase tracking-[0.22em] text-slate-500">
+          Vision with
+          <br />
+          cinematic clarity
+        </p>
 
         <nav className="space-y-2 text-xs font-grotesk uppercase tracking-[0.22em]">
           {navItems.map((item) => {
