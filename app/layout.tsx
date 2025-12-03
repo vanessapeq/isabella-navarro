@@ -39,10 +39,14 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${spaceGrotesk.variable} ${dmSerif.variable} font-sans bg-background`}
       >
-        <div className="min-h-screen flex flex-col">
+        <div className="min-h-screen bg-background">
           <Header />
-          <main className="flex-1 pt-20">{children}</main>
-          <Footer />
+          <div className="flex min-h-screen">
+            <main className="flex-1 pl-0 lg:pl-60 flex flex-col">
+              <div className="flex-1">{children}</div>
+              <Footer />
+            </main>
+          </div>
         </div>
       </body>
     </html>

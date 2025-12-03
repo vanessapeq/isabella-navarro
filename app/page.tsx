@@ -1,4 +1,4 @@
-import HeroSlider from "@/components/HeroSlider";
+import HomeHero from "@/components/HomeHero";
 import ArtworkCategoryCard from "@/components/ArtworkCategoryCard";
 import ProjectCard from "@/components/ProjectCard";
 import { artworkCategories } from "@/data/artworks";
@@ -9,7 +9,7 @@ export default function HomePage() {
 
   return (
     <>
-      <HeroSlider />
+      <HomeHero />
 
       <section className="section-padding">
         <div className="container-base">
