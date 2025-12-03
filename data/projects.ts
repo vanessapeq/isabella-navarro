@@ -20,7 +20,7 @@ export const projects: Project[] = [
       "Instalação em azulejos para um espaço de passagem no centro do Rio, entre arquitetura histórica e fluxo contemporâneo.",
     description:
       "Uma intervenção em azulejos que ocupa um corredor de circulação, criando um percurso entre sombras azuis e reflexos dourados. Pensada para dialogar com a luz natural, a obra se transforma ao longo do dia.",
-    image: "/placeholders/project-rio"
+    image: "/images/projetos-desenhos-fundo-cinza-BmEpoJlx.png"
   },
   {
     slug: "lisboa",
@@ -32,7 +32,7 @@ export const projects: Project[] = [
       "Pesquisa em desenho, fotografia e azulejaria em diálogo com o imaginário urbano lisboeta.",
     description:
       "Durante uma residência artística, a artista desenvolveu estudos de fachadas, retábulos e pequenos oratórios urbanos. A pesquisa resultou em uma série de desenhos, fotos e protótipos de painéis de azulejos.",
-    image: "/placeholders/project-lisboa"
+    image: "/images/projeto-azulejo-contemporaneo.png"
   },
   {
     slug: "cidades-imaginadas",
