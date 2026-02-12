@@ -41,8 +41,8 @@ export default function ContactsPage() {
           </div>
 
           <div className="relative group">
-            <div className="absolute -top-4 -left-4 z-10">
-              <span className="bg-navy-azulejo text-white text-[10px] font-grotesk uppercase tracking-widest px-4 py-2 rounded-full shadow-lg">
+            <div className="absolute -top-5 -left-5 z-10">
+              <span className="bg-[#FF007F] text-white text-[12px] font-grotesk uppercase tracking-widest px-6 py-3 rounded-full shadow-xl font-bold">
                 Work in Progress
               </span>
             </div>
@@ -58,7 +58,7 @@ export default function ContactsPage() {
               />
             </div>
             <p className="mt-4 text-[10px] text-slate-400 text-right font-grotesk uppercase tracking-widest">
-              Atelier em Lisboa, 2024
+              Atelier em Lisboa, 2026
             </p>
           </div>
         </div>
