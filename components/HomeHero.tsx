@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function HomeHero() {
   return (
-    <section className="min-h-[70vh] lg:min-h-screen flex">
+    <section className="h-screen lg:min-h-screen flex">
       {/* A coluna de menu já vem do Header (aside fixo). Aqui só temos o bloco de imagem à direita. */}
       <div className="relative flex-1 overflow-hidden bg-slate-900">
         <Image

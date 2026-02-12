@@ -19,6 +19,16 @@ export default function ContactsPage() {
         <div className="grid gap-16 lg:grid-cols-[1fr_1.2fr] items-start">
           <div className="space-y-12">
             <div className="space-y-6">
+              <h2 className="text-xs font-grotesk uppercase tracking-[0.22em] text-slate-500 font-medium">
+                Projetos &amp; Colaborações
+              </h2>
+              <p className="text-sm text-slate-600 leading-relaxed font-light">
+                Disponível para exposições, residências artísticas, projetos em colaboração com arquitetura
+                e comissionamentos específicos em azulejaria, pintura e instalação.
+              </p>
+            </div>
+
+            <div className="space-y-6">
               <h2 className="text-xs font-grotesk uppercase tracking-[0.22em] text-slate-500">
                 Redes &amp; Email
               </h2>
@@ -28,21 +38,11 @@ export default function ContactsPage() {
                 ))}
               </div>
             </div>
-
-            <div className="space-y-6">
-              <h2 className="text-xs font-grotesk uppercase tracking-[0.22em] text-slate-500 font-medium">
-                Projetos &amp; Colaborações
-              </h2>
-              <p className="text-sm text-slate-600 leading-relaxed font-light">
-                Disponível para exposições, residências artísticas, projetos em colaboração com arquitetura
-                e comissionamentos específicos em azulejaria, pintura e instalação.
-              </p>
-            </div>
           </div>
 
           <div className="relative group">
-            <div className="absolute -top-5 -left-5 z-10">
-              <span className="bg-[#FF007F] text-white text-[12px] font-grotesk uppercase tracking-widest px-6 py-3 rounded-full shadow-xl font-bold">
+            <div className="absolute -top-5 left-4 lg:-left-5 z-10">
+              <span className="bg-[#FF007F] text-white text-[12px] font-grotesk uppercase tracking-widest px-6 py-3 rounded-full shadow-xl font-bold whitespace-nowrap">
                 Work in Progress
               </span>
             </div>
