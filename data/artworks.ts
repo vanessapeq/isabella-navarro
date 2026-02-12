@@ -228,6 +228,15 @@ export const heroSlides: ArtworkItem[] = [
 
 export const individualArtworks: ArtworkItem[] = [
   {
+    id: "3",
+    title: "A Brasileira",
+    category: "Pintura",
+    year: "2022",
+    technique: "Óleo e técnica mista sobre tela",
+    image: "/images/isabellanavarroarte.webp",
+    description: "Exploração cromática vibrante onde a cor assume o papel principal, criando camadas de profundidade e emoção."
+  },
+  {
     id: "1",
     title: "Santo António & Sagrada Família",
     category: "Azulejaria",
@@ -244,15 +253,6 @@ export const individualArtworks: ArtworkItem[] = [
     technique: "Desenho",
     image: "/images/projetos-desenhos-fundo-cinza.png",
     description: "Série de desenhos que exploram a gestualidade e a pureza da linha sobre superfícies neutras, buscando um diálogo entre o vazio e a forma."
-  },
-  {
-    id: "3",
-    title: "Composição I",
-    category: "Pintura",
-    year: "2022",
-    technique: "Óleo e técnica mista sobre tela",
-    image: "/images/isabellanavarroarte.webp",
-    description: "Exploração cromática vibrante onde a cor assume o papel principal, criando camadas de profundidade e emoção."
   },
   {
     id: "5",
