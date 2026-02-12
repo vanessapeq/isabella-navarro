@@ -238,10 +238,10 @@ export const individualArtworks: ArtworkItem[] = [
   },
   {
     id: "2",
-    title: "Estudos de Linha",
+    title: "Projeto Restaurante Peixaria",
     category: "Desenho",
     year: "2023",
-    technique: "Grafite sobre papel cinza",
+    technique: "Desenho",
     image: "/images/projetos-desenhos-fundo-cinza.png",
     description: "Série de desenhos que exploram a gestualidade e a pureza da linha sobre superfícies neutras, buscando um diálogo entre o vazio e a forma."
   },
@@ -255,21 +255,12 @@ export const individualArtworks: ArtworkItem[] = [
     description: "Exploração cromática vibrante onde a cor assume o papel principal, criando camadas de profundidade e emoção."
   },
   {
-    id: "4",
-    title: "Fachada Contemporânea",
-    category: "Azulejaria",
-    year: "2024",
-    technique: "Intervenção arquitetônica em cerâmica",
-    image: "/images/public-hero-isabela.jpg",
-    description: "Projeto de integração artística que utiliza o azulejo como elemento estrutural e estético em fachadas modernas."
-  },
-  {
     id: "5",
     title: "Nossa Senhora da Conceição",
     category: "Azulejaria",
     year: "2024",
     technique: "Pintura manual sobre azulejo",
-    image: "/images/1FotoNSConceição-BdfnQkm_.jpg",
+    image: "/images/azulejaria-religiosa-isabella-navarro-nossa-senhora.jpg",
     description: "Reinterpretação contemporânea da iconografia sacra maranhense/portuguesa, mantendo a tradição técnica com novo frescor visual."
   },
   {
@@ -283,10 +274,10 @@ export const individualArtworks: ArtworkItem[] = [
   },
   {
     id: "7",
-    title: "Aquarelas Botânicas",
+    title: "Projeto Restaurante Peixaria",
     category: "Desenho",
     year: "2023",
-    technique: "Aquarela e nanquim",
+    technique: "Desenho",
     image: "/images/projetos-desenhos.png",
     description: "Série de ilustrações que mesclam elementos botânicos com geometria sagrada."
   },
@@ -307,6 +298,42 @@ export const individualArtworks: ArtworkItem[] = [
     technique: "Painel modular em cerâmica esmaltada",
     image: "/images/azulejaria-contemporanea.png",
     description: "Uma exploração das formas geométricas e padrões rítmicos que definem a nova linguagem da azulejaria contemporânea."
+  },
+  {
+    id: "10",
+    title: "Exposição Portugal I",
+    category: "Exposição",
+    year: "2024",
+    technique: "Registro de Exposição",
+    image: "/images/exposicoes-isabella-navarro-portugal.jpg",
+    description: "Obras exibidas em Portugal, explorando a relação entre tradição e contemporaneidade."
+  },
+  {
+    id: "11",
+    title: "Exposição Portugal II",
+    category: "Exposição",
+    year: "2024",
+    technique: "Registro de Exposição",
+    image: "/images/exposicoes-isabella-navarro-portugal-2.jpg",
+    description: "Detalhe de montagem e exibição de obras em solo português."
+  },
+  {
+    id: "12",
+    title: "Arte & Tecnologia",
+    category: "Tecnologia",
+    year: "2024",
+    technique: "Realidade Aumentada",
+    image: "/images/arte-tecnologia-isabella-navarro.png",
+    description: "Exploração de novas mídias e interatividade no processo artístico."
+  },
+  {
+    id: "13",
+    title: "Santo António Contemporâneo",
+    category: "Azulejaria",
+    year: "2024",
+    technique: "Pintura manual sobre azulejo",
+    image: "/images/azulejaria-contemporanea-isabella-navarro-santo-antonio.jpg",
+    description: "Leitura contemporânea da iconografia de Santo António em suporte cerâmico."
   }
 ];
 
