@@ -8,15 +8,15 @@ export type ContactLink = {
 export const contactLinks: ContactLink[] = [
   {
     id: "instagram",
-    label: "@isabellanavarro_arte",
+    label: "@isabellanavarro.art",
     type: "instagram",
-    href: "https://www.instagram.com/isabellanavarro_arte/"
+    href: "https://www.instagram.com/isabellanavarro.art/"
   },
   {
     id: "email",
-    label: "isabella.navarro.arte@gmail.com",
+    label: "isabellanavarro@gmail.com",
     type: "email",
-    href: "mailto:isabella.navarro.arte@gmail.com"
+    href: "mailto:isabellanavarro@gmail.com"
   }
 ];
 
