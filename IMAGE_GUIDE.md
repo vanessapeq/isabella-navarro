@@ -112,3 +112,4 @@ O site usa **Next.js Image Optimization** que:
 | Bio Photo | 900x1200px | 200KB | JPG/WebP |
 | Logo | 200x80px | 20KB | SVG/PNG |
 
+

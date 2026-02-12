@@ -85,3 +85,4 @@ Para verificar se está funcionando:
 - Guia completo: `IMAGE_GUIDE.md`
 - Next.js Image Docs: https://nextjs.org/docs/app/api-reference/components/image
 
+

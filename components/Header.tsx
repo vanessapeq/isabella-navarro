@@ -6,7 +6,6 @@ import { usePathname } from "next/navigation";
 const navItems = [
   { href: "/", label: "HOME" },
   { href: "/artworks", label: "ARTWORKS" },
-  { href: "/projects", label: "PROJECTS" },
   { href: "/bio", label: "BIO" },
   { href: "/exhibitions", label: "EXHIBITIONS" },
   { href: "/contacts", label: "CONTACTS" }
@@ -28,11 +27,7 @@ export default function Header() {
           </div>
         </div>
 
-        <p className="text-[10px] font-grotesk uppercase tracking-[0.22em] text-slate-500">
-          Vision with
-          <br />
-          cinematic clarity
-        </p>
+
 
         <nav className="space-y-2 text-xs font-grotesk uppercase tracking-[0.22em]">
           {navItems.map((item) => {
@@ -43,9 +38,8 @@ export default function Header() {
             return (
               <Link key={item.href} href={item.href}>
                 <span
-                  className={`block py-1.5 transition-colors ${
-                    isActive ? "text-navy-azulejo" : "text-slate-500 hover:text-slate-800"
-                  }`}
+                  className={`block py-1.5 transition-colors ${isActive ? "text-navy-azulejo" : "text-slate-500 hover:text-slate-800"
+                    }`}
                 >
                   {item.label}
                 </span>
@@ -56,9 +50,7 @@ export default function Header() {
       </div>
 
       <div className="space-y-4 text-[11px] text-slate-500">
-        <p className="uppercase font-grotesk tracking-[0.18em]">
-          Filmmaker / Visual Artist
-        </p>
+
         <div className="flex flex-col gap-1">
           <p>Based in Brazil</p>
           <p>Working between Brazil &amp; Portugal</p>

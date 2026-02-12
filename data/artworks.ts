@@ -5,6 +5,8 @@ export type ArtworkItem = {
   technique: string;
   size?: string;
   image: string;
+  category?: string;
+  description?: string;
 };
 
 export type ArtworkCategory = {
@@ -213,36 +215,100 @@ export const heroSlides: ArtworkItem[] = [
     title: "Série Azulejaria Contemporânea",
     year: "2023",
     technique: "Azulejos pintados à mão",
-    image: "/placeholders/hero-azulejos"
+    image: "/images/public-hero-isabela.jpg"
   },
   {
     id: "hero-photo",
     title: "Photo Art — Vigília",
     year: "2019",
     technique: "Foto + intervenção manual",
-    image: "/placeholders/hero-photo"
-  },
-  {
-    id: "hero-large",
-    title: "Large Format 1x1m",
-    year: "2022",
-    technique: "Acrílica sobre tela",
-    image: "/placeholders/hero-large"
-  },
-  {
-    id: "hero-install",
-    title: "Objects & Installations",
-    year: "2021",
-    technique: "Instalação site-specific",
-    image: "/placeholders/hero-install"
-  },
-  {
-    id: "hero-street",
-    title: "Spray & Street",
-    year: "2018",
-    technique: "Spray em muro urbano",
-    image: "/placeholders/hero-street"
+    image: "/images/isabellanavarroarteabrasileira.webp"
   }
 ];
+
+export const individualArtworks: ArtworkItem[] = [
+  {
+    id: "1",
+    title: "Santo António & Sagrada Família",
+    category: "Azulejaria",
+    year: "2023-2024",
+    technique: "Painéis de azulejaria contemporânea religiosa",
+    image: "/images/arte-religiosa-3.png-BklcNRl_.jpg",
+    description: "A criação de uma nova estética dos azulejos presentes nas fachadas portuguesas e sua iconografia religiosa, foram inspiração para o desenvolvimento de uma série de painéis de azulejaria contemporânea religiosa. \"Santo António\" (2023), Museu de Lisboa e \"Sagrada Família\" (2024), Convento do Carmo, Lisboa, Portugal."
+  },
+  {
+    id: "2",
+    title: "Estudos de Linha",
+    category: "Desenho",
+    year: "2023",
+    technique: "Grafite sobre papel cinza",
+    image: "/images/projetos-desenhos-fundo-cinza.png",
+    description: "Série de desenhos que exploram a gestualidade e a pureza da linha sobre superfícies neutras, buscando um diálogo entre o vazio e a forma."
+  },
+  {
+    id: "3",
+    title: "Composição I",
+    category: "Pintura",
+    year: "2022",
+    technique: "Óleo e técnica mista sobre tela",
+    image: "/images/isabellanavarroarte.webp",
+    description: "Exploração cromática vibrante onde a cor assume o papel principal, criando camadas de profundidade e emoção."
+  },
+  {
+    id: "4",
+    title: "Fachada Contemporânea",
+    category: "Azulejaria",
+    year: "2024",
+    technique: "Intervenção arquitetônica em cerâmica",
+    image: "/images/public-hero-isabela.jpg",
+    description: "Projeto de integração artística que utiliza o azulejo como elemento estrutural e estético em fachadas modernas."
+  },
+  {
+    id: "5",
+    title: "Nossa Senhora da Conceição",
+    category: "Azulejaria",
+    year: "2024",
+    technique: "Pintura manual sobre azulejo",
+    image: "/images/1FotoNSConceição-BdfnQkm_.jpg",
+    description: "Reinterpretação contemporânea da iconografia sacra maranhense/portuguesa, mantendo a tradição técnica com novo frescor visual."
+  },
+  {
+    id: "6",
+    title: "Santo António II",
+    category: "Azulejaria",
+    year: "2023",
+    technique: "Azulejaria manual pigmentada",
+    image: "/images/Foto-Sto-Antonio2-CnyXKwfC.jpg",
+    description: "Estudo de fragmentação e repetição em painéis religiosos para ambientes internos."
+  },
+  {
+    id: "7",
+    title: "Aquarelas Botânicas",
+    category: "Desenho",
+    year: "2023",
+    technique: "Aquarela e nanquim",
+    image: "/images/projetos-desenhos.png",
+    description: "Série de ilustrações que mesclam elementos botânicos com geometria sagrada."
+  },
+  {
+    id: "8",
+    title: "Projeto Azulejo I",
+    category: "Azulejaria",
+    year: "2022",
+    technique: "Design modular em cerâmica",
+    image: "/images/projeto-azulejo-contemporaneo.png",
+    description: "Desenvolvimento de padrões autorais para produção em série limitada, unindo artesanato e design."
+  },
+  {
+    id: "9",
+    title: "Azulejaria Contemporânea",
+    category: "Azulejaria",
+    year: "2024",
+    technique: "Painel modular em cerâmica esmaltada",
+    image: "/images/azulejaria-contemporanea.png",
+    description: "Uma exploração das formas geométricas e padrões rítmicos que definem a nova linguagem da azulejaria contemporânea."
+  }
+];
+
 
 
