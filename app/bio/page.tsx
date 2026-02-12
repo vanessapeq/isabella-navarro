@@ -89,7 +89,7 @@ export default function BioPage() {
           >
             <Image
               src="/images/IsabellaNavarro_PremioBrasileiraChiado-46.jpg"
-              alt="Isabela Navarro - Processo Criativo"
+              alt="Isabella Navarro - Processo Criativo"
               fill
               className="object-cover"
               priority
@@ -110,7 +110,7 @@ export default function BioPage() {
             >
               <Image
                 src="/images/public-bio-isabela.jpg"
-                alt="Isabela Navarro"
+                alt="Isabella Navarro"
                 fill
                 className="object-cover"
               />

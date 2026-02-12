@@ -24,9 +24,9 @@ const dmSerif = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Isabela Navarro — Visual Artist",
+  title: "Isabella Navarro — Visual Artist",
   description:
-    "Portfolio of visual artist Isabela Navarro. Contemporary azulejos, painting, photo art, installations and more."
+    "Portfolio of visual artist Isabella Navarro. Contemporary azulejos, painting, photo art, installations and more."
 };
 
 export default function RootLayout({

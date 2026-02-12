@@ -5,10 +5,7 @@ export default function Footer() {
     <footer className="border-t border-slate-200/70 bg-white/80">
       <div className="container-base py-8">
         <div className="flex flex-col gap-2 text-[11px] text-slate-500 sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} Isabela Navarro. All rights reserved.</p>
-          <p className="text-slate-400">
-            Site desenvolvido em Next.js, TailwindCSS &amp; Framer Motion.
-          </p>
+          <p>© {new Date().getFullYear()} Isabella Navarro. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -8,7 +8,7 @@ export default function HomeHero() {
       <div className="relative flex-1 overflow-hidden bg-slate-900">
         <Image
           src="/images/IsabellaNavarro_PremioBrasileiraChiado-21.jpg"
-          alt="Isabela Navarro - Prémio Brasileira do Chiado"
+          alt="Isabella Navarro - Prémio Brasileira do Chiado"
           fill
           priority
           className="object-cover object-center"
