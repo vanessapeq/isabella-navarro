@@ -83,13 +83,13 @@ export default function ArtworksPage() {
                 onClick={() => setSelectedArtwork(artwork)}
                 className="group relative cursor-pointer overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-200/50 transition-all hover:shadow-xl hover:-translate-y-1"
               >
-                <div className="relative aspect-[3/4] overflow-hidden sm:aspect-auto">
+                <div className="relative overflow-hidden">
                   <Image
                     src={artwork.image}
                     alt={artwork.title}
                     width={800}
                     height={1000}
-                    className="w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
 
