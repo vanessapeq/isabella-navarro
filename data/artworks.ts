@@ -5,6 +5,8 @@ export type ArtworkItem = {
   technique: string;
   size?: string;
   image: string;
+  width?: number;
+  height?: number;
   category?: string;
   description?: string;
 };
@@ -234,6 +236,8 @@ export const individualArtworks: ArtworkItem[] = [
     year: "2022",
     technique: "Óleo e técnica mista sobre tela",
     image: "/images/isabellanavarroarte.webp",
+    width: 1600,
+    height: 1128,
     description: "Exploração cromática vibrante onde a cor assume o papel principal, criando camadas de profundidade e emoção."
   },
   {
@@ -243,6 +247,8 @@ export const individualArtworks: ArtworkItem[] = [
     year: "2023-2024",
     technique: "Painéis de azulejaria contemporânea religiosa",
     image: "/images/arte-religiosa-3.png-BklcNRl_.jpg",
+    width: 1200,
+    height: 1600,
     description: "A criação de uma nova estética dos azulejos presentes nas fachadas portuguesas e sua iconografia religiosa, foram inspiração para o desenvolvimento de uma série de painéis de azulejaria contemporânea religiosa. \"Santo António\" (2023), Museu de Lisboa e \"Sagrada Família\" (2024), Convento do Carmo, Lisboa, Portugal."
   },
   {
@@ -252,6 +258,8 @@ export const individualArtworks: ArtworkItem[] = [
     year: "2023",
     technique: "Desenho",
     image: "/images/projetos-desenhos-fundo-cinza.png",
+    width: 744,
+    height: 319,
     description: "Série de desenhos que exploram a gestualidade e a pureza da linha sobre superfícies neutras, buscando um diálogo entre o vazio e a forma."
   },
   {
@@ -261,6 +269,8 @@ export const individualArtworks: ArtworkItem[] = [
     year: "2024",
     technique: "Pintura manual sobre azulejo",
     image: "/images/azulejaria-religiosa-isabella-navarro-nossa-senhora.jpg",
+    width: 404,
+    height: 538,
     description: "Reinterpretação contemporânea da iconografia sacra maranhense/portuguesa, mantendo a tradição técnica com novo frescor visual."
   },
   {
@@ -270,6 +280,8 @@ export const individualArtworks: ArtworkItem[] = [
     year: "2023",
     technique: "Azulejaria manual pigmentada",
     image: "/images/Foto-Sto-Antonio2-CnyXKwfC.jpg",
+    width: 768,
+    height: 1024,
     description: "Estudo de fragmentação e repetição em painéis religiosos para ambientes internos."
   },
   {
@@ -279,6 +291,8 @@ export const individualArtworks: ArtworkItem[] = [
     year: "2023",
     technique: "Desenho",
     image: "/images/projetos-desenhos.png",
+    width: 355,
+    height: 412,
     description: "Série de ilustrações que mesclam elementos botânicos com geometria sagrada."
   },
   {
@@ -288,6 +302,8 @@ export const individualArtworks: ArtworkItem[] = [
     year: "2022",
     technique: "Design modular em cerâmica",
     image: "/images/projeto-azulejo-contemporaneo.png",
+    width: 1191,
+    height: 355,
     description: "Desenvolvimento de padrões autorais para produção em série limitada, unindo artesanato e design."
   },
   {
@@ -297,6 +313,8 @@ export const individualArtworks: ArtworkItem[] = [
     year: "2024",
     technique: "Painel modular em cerâmica esmaltada",
     image: "/images/azulejaria-contemporanea.png",
+    width: 800,
+    height: 600,
     description: "Uma exploração das formas geométricas e padrões rítmicos que definem a nova linguagem da azulejaria contemporânea."
   },
   {
@@ -306,6 +324,8 @@ export const individualArtworks: ArtworkItem[] = [
     year: "2024",
     technique: "Registro de Exposição",
     image: "/images/exposicoes-isabella-navarro-portugal.jpg",
+    width: 1024,
+    height: 768,
     description: "Obras exibidas em Portugal, explorando a relação entre tradição e contemporaneidade."
   },
   {
@@ -315,6 +335,8 @@ export const individualArtworks: ArtworkItem[] = [
     year: "2024",
     technique: "Registro de Exposição",
     image: "/images/exposicoes-isabella-navarro-portugal-2.jpg",
+    width: 900,
+    height: 1600,
     description: "Detalhe de montagem e exibição de obras em solo português."
   },
   {
@@ -324,6 +346,8 @@ export const individualArtworks: ArtworkItem[] = [
     year: "2024",
     technique: "Realidade Aumentada",
     image: "/images/arte-tecnologia-isabella-navarro.png",
+    width: 800,
+    height: 600,
     description: "Exploração de novas mídias e interatividade no processo artístico."
   },
   {
@@ -333,9 +357,10 @@ export const individualArtworks: ArtworkItem[] = [
     year: "2024",
     technique: "Pintura manual sobre azulejo",
     image: "/images/azulejaria-contemporanea-isabella-navarro-santo-antonio.jpg",
+    width: 1005,
+    height: 1111,
     description: "Leitura contemporânea da iconografia de Santo António em suporte cerâmico."
   }
 ];
-
 
 
