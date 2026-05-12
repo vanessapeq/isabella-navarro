@@ -58,18 +58,17 @@ export default function ArtworksPage() {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="grid grid-cols-1 gap-x-6 gap-y-14 md:grid-cols-2 lg:gap-x-8 lg:gap-y-16"
+          className="columns-1 gap-6 md:columns-2 lg:gap-8"
         >
           {individualArtworks.map((artwork) => {
             const imageWidth = artwork.width ?? 1200;
             const imageHeight = artwork.height ?? 1200;
-            const isPanoramic = imageWidth / imageHeight > 1.75;
 
             return (
               <motion.div
                 key={artwork.id}
                 variants={itemVariants}
-                className={isPanoramic ? "md:col-span-2" : ""}
+                className="mb-12 break-inside-avoid lg:mb-14"
               >
                 <button
                   type="button"
@@ -82,10 +81,7 @@ export default function ArtworksPage() {
                     alt={artwork.title}
                     width={imageWidth}
                     height={imageHeight}
-                    sizes={isPanoramic
-                      ? "(max-width: 767px) 100vw, calc(100vw - 16rem)"
-                      : "(max-width: 767px) 100vw, 50vw"
-                    }
+                    sizes="(max-width: 767px) 100vw, 50vw"
                     className="h-auto w-full transition-transform duration-700 group-hover:scale-[1.02]"
                   />
                   </div>
@@ -127,4 +123,3 @@ export default function ArtworksPage() {
     </section>
   );
 }
-
