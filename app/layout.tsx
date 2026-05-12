@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Inter, Space_Grotesk, DM_Serif_Display } from "next/font/google";
+import { Inter, Space_Grotesk, DM_Serif_Display, Bebas_Neue } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -23,6 +23,13 @@ const dmSerif = DM_Serif_Display({
   display: "swap"
 });
 
+const bebasNeue = Bebas_Neue({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-bebas-neue",
+  display: "swap"
+});
+
 export const metadata: Metadata = {
   title: "Isabella Navarro — Visual Artist",
   description:
@@ -37,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${spaceGrotesk.variable} ${dmSerif.variable} font-sans bg-background`}
+        className={`${inter.variable} ${spaceGrotesk.variable} ${dmSerif.variable} ${bebasNeue.variable} font-sans bg-background`}
       >
         <div className="min-h-screen bg-background">
           <Header />
@@ -52,4 +59,3 @@ export default function RootLayout({
     </html>
   );
 }
-

@@ -17,7 +17,8 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],
         display: ["var(--font-dm-serif)", "serif"],
-        grotesk: ["var(--font-space-grotesk)", "system-ui", "sans-serif"]
+        grotesk: ["var(--font-space-grotesk)", "system-ui", "sans-serif"],
+        hero: ["var(--font-bebas-neue)", "var(--font-inter)", "system-ui", "sans-serif"]
       },
       boxShadow: {
         soft: "0 10px 30px rgba(0,0,0,0.06)"
@@ -28,6 +29,5 @@ const config: Config = {
 };
 
 export default config;
-
 
 

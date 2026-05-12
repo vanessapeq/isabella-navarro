@@ -35,7 +35,7 @@ export default function HomeHero() {
           />
           <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.04),rgba(10,10,10,0.42))]" />
           <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8 lg:p-12">
-            <h1 className="max-w-4xl font-sans text-5xl font-medium leading-[0.95] tracking-normal text-white sm:text-7xl lg:text-8xl">
+            <h1 className="max-w-4xl font-hero text-6xl font-normal uppercase leading-[0.88] tracking-[0.02em] text-white sm:text-8xl lg:text-[128px]">
               Isabella Navarro
             </h1>
           </div>
@@ -49,7 +49,7 @@ export default function HomeHero() {
           </p>
           <div className="max-w-4xl">
             <h2 className="font-sans text-3xl font-medium leading-tight tracking-normal text-slate-950 sm:text-4xl lg:text-5xl">
-              Isabella Navarro é artista visual brasileira baseada em Lisboa.
+              Artista visual brasileira baseada em Lisboa.
             </h2>
             <p className="mt-8 max-w-3xl text-base leading-8 text-slate-700 sm:text-lg">
               Sua produção investiga identidade, imigração, memória e fé por meio
